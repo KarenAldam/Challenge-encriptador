@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Fuente Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@600&display=swap" rel="stylesheet">
+    <script src="https://fontawesome.com/icons"></script>
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header>
+    <!--Logo-->
+    <img src="Imagenes/Logo.svg" alt="Logo de Alura" class="Logo">
+    </header>
+
+    <main>
+       <section>
+        <!--Encriptar| Ingresar texto-->
+        <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese texto aquí"></textarea>
+        <div>
+        
+    
+            <em class="Información">! Solo letras minúsculas y sin acento.</em>
+        </div>
+        <div class="botones">
+            <!--Buton encriptar-->
+            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+            <!--buttondesencriptar-->
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+        </div>
+
+       </section>
+       
+
+       <section>
+        
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+        
+        
+        <div>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </div>
+
+       
+
+       </section>
+
+       <section>
+        <!--&copy es el simbolo del copyright en unicode-->
+    <h7 class="copy">&copy Copyright Karen Aldama 2023</h7>
+
+    </section>
+
+    </main>
+
+      
+ 
+     
+
+    <script src="/script.js"></script>
+
+
+
+</body>
+</html>

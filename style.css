@@ -1,0 +1,180 @@
+*{
+    background-color: #f3f5fc;
+    
+    
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+/*Logo Alura*/
+.logo{
+
+padding-top: 10px;
+margin-left: 10px;
+width: 10%;
+background-color: none;
+
+}
+
+main{
+    /*Alinear distribucion de espacio en los items*/
+    display: flex;
+    margin-bottom: 50%;
+    margin-left: 80px;
+}
+
+.text-area{
+/* Ingrese el texto aqui */
+height: 400px;
+border: none;
+color: #0A3871;
+margin-top: 30px;
+padding: 2px;
+/*Transformar el texto a minuscula*/
+text-transform: lowercase;
+letter-spacing: .5px;
+}
+
+/*color del texto*/
+::placeholder { color: #0A3871}
+
+.text-area:focus{
+    outline: none;
+}
+
+
+
+.mensaje{
+    position: fixed;
+    height: 630px;
+    width: 470px;
+    left: 940;
+    top: 20px;
+    margin-left: 98px;
+    /* Quitar la redimensión*/
+    border: none;
+    background: white;
+    box-shadow: 0px 4px 19px -10px;
+    resize: none;
+    color: #0A3871;
+    border-radius: 24px;
+    padding-left: 20px;
+    background-image: url("Imagenes/lounge-magnifying-glass-1.png");
+    /*Illustration by Icons 8 Ouch!*/
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    /*Uno a lado del otro*/
+    display: flex;
+    margin-top: 18px;
+    
+}
+
+.btn-encriptar{
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background-color: #0A3871;*/
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+
+.btn-encriptar:hover{
+background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+   
+}
+
+.btn-desencriptar{
+    /*background-color: #D8DFE8;*/
+    background: #2c3e50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+
+.btn-desencriptar:hover{
+    background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    border: none;
+    
+}
+
+.btn-copiar{
+    background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 170px;
+    margin-top: 575px;
+    position: absolute;
+    width: 336px;
+}
+
+.btn-copiar:hover{
+
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border: none;
+}
+
+.Información{
+    color: #495057;
+    font-size: 18px;
+   
+
+}
+
+.copy{
+    font-size: 18px;
+    position: absolute;
+    justify-content: center;
+    top: 753px;
+    color: #495057;
+
+
+}
+
+
+
+
+
